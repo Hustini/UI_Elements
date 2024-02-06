@@ -33,12 +33,11 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
     let anmeldung = document.querySelector('#Anmeldung')
+    let email = document.querySelector('#email')
     anmeldung.addEventListener('click', function () {
         document.getElementById('dialog')
             .close();
-        img.style.display = 'block'
-        setTimeout(function () {
-            img.style.display = 'none';
-        }, 100);
+        alert('You will see the input in the console. the input will not be check for anything.')
+        console.log(email.value)
     })
 });

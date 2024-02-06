@@ -32,9 +32,8 @@ document.addEventListener('DOMContentLoaded', function () {
             .close();
     })
 
-    let jump_scare = document.querySelector('#Anmeldung')
-    let img = document.querySelector('#scariii')
-    jump_scare.addEventListener('click', function () {
+    let anmeldung = document.querySelector('#Anmeldung')
+    anmeldung.addEventListener('click', function () {
         document.getElementById('dialog')
             .close();
         img.style.display = 'block'

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang='de'>
+<head>
+  <meta charset='utf-8'>
+  <title>UI Elements</title>
+  <script src="../script.js"></script>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+<header>
+  <nav class="navbar">
+    <a href="#" class="nav-branding">Ejder Salih</a>
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="accordion.html" class="nav-link">Accordion</a>
+      </li>
+      <li class="nav-item">
+        <a href="module_dialog.html" class="nav-link">Module Dialog</a>
+      </li>
+      <li class="nav-item">
+        <a href="text.html" class="nav-link">Languages changes</a>
+      </li>
+    </ul>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="center">
+    <img id="scariii" src="../pics/scari.png" style="display: none" height="1000">
+    <button id="show-dialog">Anmeldung</button>
+  </div>
+  <dialog id="dialog">
+    <h2>Anmeldung</h2>
+    <form action="#" method="post">
+      <label for="email">Bitte geben Sie Ihre Email-Adresse an: </label>
+      <input id="email" type="email"/>
+    </form>
+    <button id="Anmeldung">Anmelden</button>
+    <button id="close-dialog">Abbrechen</button>
+  </dialog>
+</main>
+</body>
+</html>
